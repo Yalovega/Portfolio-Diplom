@@ -213,6 +213,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    margin-bottom: 64px;
 }
 
 .text-h1 {
@@ -257,4 +258,226 @@ body {
     font-weight: 400;
     line-height: normal;
     width: 509.414px;
+}
+
+
+
+
+
+.boxes-all {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.specialyty-shadow-box {
+    display: flex;
+    width: 369.333px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    background: var(--Unnamed-Color, linear-gradient(233deg, #0E0E10 27.06%, rgba(23, 23, 26, 0.23) 92.12%));
+
+}
+
+
+.email-h1 {
+    color: var(--Unnamed-Color, #E6E6E6);
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: px;
+    justify-content: center;
+}
+
+.email-text {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 277.227px;
+}
+
+.img-mark {
+    position: absolute;
+}
+
+
+
+
+.specialyty-shadow-second {
+    display: flex;
+    width: 369.333px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    background: var(--Unnamed-Color, linear-gradient(233deg, #0E0E10 27.06%, rgba(23, 23, 26, 0.23) 92.12%));
+
+}
+
+
+
+.specialyty-shadow-three {
+    display: flex;
+    width: 369.333px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    background: var(--Unnamed-Color, linear-gradient(233deg, #0E0E10 27.06%, rgba(23, 23, 26, 0.23) 92.12%));
+
+}
+
+
+
+
+.work-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 50px;
+}
+
+
+.about-me-h1 {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.8px;
+}
+
+
+
+.work-procces-h2 {
+    color: var(--Portfolio-white, #E6E6E6);
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%;
+}
+
+.work-blue {
+    color: var(--Portfolio-primary, #194BFD);
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%;
+    margin-left: 8px;
+}
+
+.work-procces-text {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 426.633px;
+}
+
+
+
+.about-graphics {
+    width: 1151.992px;
+    height: 431.985px;
+    display: flex;
+    margin-top: 125px;
+
+}
+
+.border-1 {
+    border-radius: 12px;
+    border: 1px solid var(--Unnamed-Color, #C0C0C0);
+    background: var(--Unnamed-Color, #0E0E10);
+    box-shadow: 0px 4px 40px 0px #000 inset, 0px 25px 36px 0px rgba(0, 0, 0, 0.10);
+    width: 144.146px;
+    height: 144.146px;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    margin-left: 250px;
+    margin-right: 0px;
+}
+
+.text-about {
+    color: var(--Unnamed-Color, #E6E6E6);
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 55px;
+
+}
+
+
+.text-about-2 {
+    color: var(--Unnamed-Color, #E6E6E6);
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 55px;
+
+}
+
+
+.text-about-3 {
+    color: var(--Unnamed-Color, #E6E6E6);
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%;
+    position: absolute;
+    margin-left: 1045px;
+    margin-top: 55px;
+
+}
+
+.arrow-svg {
+    stroke-width: 2px;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-left: 490px;
+    margin-top: 60px;
+}
+
+.arrow-svg-2 {
+    stroke-width: 2px;
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    margin-left: 890px;
+    margin-top: 60px;
 }
