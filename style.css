@@ -737,3 +737,50 @@ section .card .image img {
     margin-top: 300px;
     margin-left: 420px;
 }
+
+
+.member-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 0px;
+}
+
+
+.man-box-1,
+.man-box-2,
+.man-box-3,
+.man-box-3 {
+    margin-right: 50px;
+}
+
+.team-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+
+}
+
+.man-text-h1 {
+
+    color: var(--Unnamed-Color, #E6E6E6);
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: stretch;
+}
+
+
+
+.man-text {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+}
