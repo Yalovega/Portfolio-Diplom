@@ -601,7 +601,7 @@ section .card .image img {
     height: 7px;
     width: 26px;
     border-radius: 25px;
-    background-color: #FFF;
+    background-color: #1c36de !important;
 }
 
 .swiper-button-next,
@@ -739,6 +739,12 @@ section .card .image img {
 }
 
 
+
+
+.member-team {
+    margin-bottom: 400px;
+}
+
 .member-text-box {
     display: flex;
     flex-direction: column;
@@ -771,6 +777,7 @@ section .card .image img {
     font-weight: 700;
     line-height: normal;
     align-self: stretch;
+    margin-bottom: 16px;
 }
 
 
@@ -783,4 +790,192 @@ section .card .image img {
     font-weight: 400;
     line-height: normal;
     width: 200px;
+}
+
+.contact {
+    margin-top: 100px;
+    margin-left: 155px;
+    margin-right: 155px;
+}
+
+.teleg-bg {
+    background: linear-gradient(90deg, rgba(14, 14, 14, 0.90) 0%, rgba(14, 14, 14, 0.90) 53.13%, rgba(14, 14, 14, 0.90) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    width: 1138.781px;
+    height: 170.667px;
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.teleg-paper {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+
+}
+
+
+.contact-text-h1 {
+    color: var(--Unnamed-Color, #E6E6E6);
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 30px;
+    /* 36.48px */
+}
+
+
+.contact-text {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 246.645px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+
+.telegram-btn {
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    flex-shrink: 0;
+    margin-left: 800px;
+    margin-top: 60px;
+}
+
+.decoration-btn {
+    text-decoration: none;
+    color: var(--Unnamed-Color, #E6E6E6);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%;
+    display: flex;
+    width: 215px;
+    padding: 12px 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 29px;
+    background: var(--Unnamed-Color, linear-gradient(94deg, #194BFD -15.33%, #AD13FB 139.21%));
+
+}
+
+
+.decoration-btn:hover {
+    background: var(--Unnamed-Color, linear-gradient(94deg, #AD13FB 129.21%, #194BFD -15.33%));
+}
+
+
+
+
+.wrapper {
+    padding-left: 160px;
+    display: flex;
+
+}
+
+.wrapper-left {
+    align-items: center;
+
+}
+
+.logo-2 {
+    display: flex;
+    position: absolute;
+}
+
+.wrapper-logo-text {
+    color: var(--Unnamed-Color, var(--Unnamed-Color, #FFF));
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-left: 30px;
+    margin-top: 2.5px;
+}
+
+.wrapper-under-text {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 288.203px;
+    margin-top: 24px;
+
+}
+
+.quick-link {
+    margin-left: 195px;
+}
+
+.quick-link-h1 {
+    color: var(--Unnamed-Color, var(--Unnamed-Color, #FFF));
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    margin-left: 30px;
+}
+
+.quick-items {
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.quick-item {
+    list-style-type: none;
+}
+
+.quick-items:hover {
+    color: #FFF;
+}
+
+.wrapper-right {
+    margin-left: 300px;
+}
+
+.contacts-wrapper-h1 {
+    color: var(--Unnamed-Color, var(--Unnamed-Color, #FFF));
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+
+.contacts-number {
+    margin-top: 10px;
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+}
+
+.contact-img {
+    margin-right: 10px;
 }
