@@ -1,0 +1,120 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: var(--Unnamed-Color, #0A0A0C);
+    font-family: "Space Grotesk";
+    font-family: Satoshi;
+}
+
+.container {
+    margin-top: 200px;
+    margin-bottom: 700px;
+
+}
+
+.log-form {
+    width: 40%;
+    min-width: 320px;
+    max-width: 475px;
+    background: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.log-form form {
+    display: block;
+    width: 100%;
+    padding: 2em;
+
+}
+
+.log-form h2 {
+    width: 100%;
+    color: #fff;
+    font-family: "Space Grotesk";
+    font-size: 1.35em;
+    display: block;
+    background: var(--Unnamed-Color, linear-gradient(94deg, #194BFD -15.33%, #AD13FB 129.21%));
+    width: 100%;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    -webkit-box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    box-shadow: inset 0px 1px 1px fadeout(white, 95%);
+    border: 1px solid #1d1d1d;
+    margin: 0;
+    font-weight: 400;
+}
+
+.log-form input {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    margin-bottom: 2em;
+    padding: .5em 0;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1.25em;
+    color: #757575;
+}
+
+.log-form input:focus {
+    outline: none;
+}
+
+
+
+
+.btn {
+    color: var(--Unnamed-Color, #E6E6E6);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%;
+    border-radius: 29px;
+    background: var(--Unnamed-Color, linear-gradient(94deg, #194BFD -15.33%, #AD13FB 129.21%));
+    width: 100px;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background: var(--Unnamed-Color, linear-gradient(94deg, #AD13FB 129.21%, #194BFD -15.33%));
+    transition: 0.5s;
+    color: #0A0A0C;
+}
+
+.log-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+/*  */
+
+.gmail-text {
+    text-decoration: none;
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+}
+
+.gmail-text:hover {
+    color: #FFF;
+}
+
+
+
+
+.maps {
+    margin-top: 100px;
+    margin-left: 422px;
+    margin-bottom: 200px;
+}

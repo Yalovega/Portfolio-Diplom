@@ -8,9 +8,6 @@ body {
     max-width: 1442px;
     padding-bottom: 200px;
     margin: 0 auto;
-
-
-
 }
 
 
@@ -962,6 +959,15 @@ section .card .image img {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.8px;
+}
+
+.gmail-text {
+    text-decoration: none;
+    color: var(--Unnamed-Color, rgba(230, 230, 230, 0.51));
+}
+
+.gmail-text:hover {
+    color: #FFF;
 }
 
 
