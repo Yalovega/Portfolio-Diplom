@@ -41,49 +41,23 @@
       <div class="container-header">
         <div class="navigation">
           <div class="logotype">
-            <svg
-              class="logo-first"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <mask
-                id="mask0_6_596"
-                style="mask-type: alpha"
-                maskUnits="userSpaceOnUse"
-                x="0"
-                y="0"
-                width="24"
-                height="24"
-              >
-                <rect width="24" height="24" fill="#D9D9D9" />
-              </mask>
-              <g mask="url(#mask0_6_596)">
-                <path
-                  d="M10.975 21.95C9.70834 21.8167 8.52934 21.4623 7.438 20.887C6.346 20.3123 5.4 19.5793 4.6 18.688C3.8 17.796 3.171 16.775 2.713 15.625C2.25433 14.475 2.025 13.2583 2.025 11.975C2.025 9.39167 2.87933 7.154 4.588 5.262C6.296 3.37067 8.43334 2.28333 11 2V4C8.98334 4.28333 7.31667 5.179 6 6.687C4.68333 8.19567 4.025 9.95833 4.025 11.975C4.025 13.9917 4.68333 15.754 6 17.262C7.31667 18.7707 8.975 19.6667 10.975 19.95V21.95ZM11.975 17L6.95 11.95L8.375 10.525L10.975 13.125V7H12.975V13.125L15.55 10.55L16.975 12L11.975 17ZM12.975 21.95V19.95C13.6917 19.85 14.3793 19.6583 15.038 19.375C15.696 19.0917 16.3083 18.7333 16.875 18.3L18.325 19.75C17.5417 20.3667 16.7 20.8627 15.8 21.238C14.9 21.6127 13.9583 21.85 12.975 21.95ZM16.925 5.65C16.3417 5.21667 15.7207 4.85833 15.062 4.575C14.404 4.29167 13.7167 4.1 13 4V2C13.9833 2.1 14.925 2.33733 15.825 2.712C16.725 3.08733 17.5583 3.58333 18.325 4.2L16.925 5.65ZM19.725 18.3L18.325 16.875C18.7583 16.3083 19.1083 15.6957 19.375 15.037C19.6417 14.379 19.825 13.6917 19.925 12.975H21.975C21.8417 13.9583 21.5917 14.904 21.225 15.812C20.8583 16.7207 20.3583 17.55 19.725 18.3ZM19.925 10.975C19.825 10.2583 19.6417 9.57067 19.375 8.912C19.1083 8.254 18.7583 7.64167 18.325 7.075L19.725 5.65C20.3583 6.4 20.8667 7.229 21.25 8.137C21.6333 9.04567 21.875 9.99167 21.975 10.975H19.925Z"
-                  fill="#194BFD"
-                />
-              </g>
-            </svg>
+            <a href="index.html">
+              <img class="logo-first" src="img/logotype-333.png" alt=""
+            /></a>
           </div>
 
-          <div class="logo-text">
-            <p>designer</p>
-          </div>
           <nav>
             <div class="nav-item">
               <ul>
                 <a class="nav-items" href="index.html">Home</a>
-                <a class="nav-items" href="#">Service</a>
+                <a class="nav-items" href="My-work.html">My work</a>
                 <a
                   target="_blank"
                   class="nav-items"
                   href="https://github.com/Yalovega"
-                  >Projects</a
+                  >GitHub</a
                 >
-                <a class="nav-items" href="#">About</a>
+                <a class="nav-items" href="about.html">About </a>
                 <a class="nav-items" href="contact.html">Contact</a>
               </ul>
             </div>
@@ -141,9 +115,20 @@
     <div class="designer">
       <div class="bg">
         <div class="bg-2">
-          <div class="designer-text">
-            This is your designer <a class="Howard"> Esther Howard</a>
+          <div class="container">
+            <h1 class="designer-text">
+              This is your <span class="auto-type"></span>
+            </h1>
           </div>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script>
+            var typed = new Typed(".auto-type", {
+              strings: ["Programmer", "Designer", "Yalovega-Viktor"],
+              typeSpeed: 150,
+              backSpeed: 150,
+              looped: true,
+            });
+          </script>
           <div class="under-text">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation

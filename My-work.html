@@ -1,11 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Web Contact</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,9 +30,13 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="My-work.css" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Portfolio Web</title>
   </head>
   <body>
-    <!--    Header  -->
+    <!-- Header -->
     <div class="header">
       <div class="container-header">
         <div class="navigation">
@@ -56,7 +57,7 @@
                   href="https://github.com/Yalovega"
                   >GitHub</a
                 >
-                <a class="nav-items" href="About.html">About </a>
+                <a class="nav-items" href="About.html">About</a>
                 <a class="nav-items" href="contact.html">Contact</a>
               </ul>
             </div>
@@ -64,62 +65,73 @@
         </div>
       </div>
     </div>
-
-    <!-- TELEGRAM FORM -->
-
-    <div class="container">
-      <div class="log-form">
-        <h2>Sending the form to Telegram</h2>
-        <form class="telegram-form">
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            autocomplete="off"
-          />
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone number"
-            autocomplete="off"
-          />
-          <input
-            type="text"
-            name="email"
-            placeholder="Email"
-            autocomplete="off"
-          />
-          <textarea name="text"></textarea>
-          <input class="file-btn" type="file" name="file" />
-          <button type="submit" class="btn">Send</button>
-        </form>
+    <div class="all-work">
+      <div class="text-mobile">
+        <div class="text-h1">All my work</div>
+        <div class="text-h2">My <a class="text-h2-blue">work</a></div>
       </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./main.js"></script>
-
-    <div class="specialyty">
-      <div class="speciality-text-box">
-        <div class="text-h1">GEOLOCATION</div>
-        <div class="text-h2">My <a class="text-h2-blue"> geolocation </a></div>
-        <div class="under-speciality">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+      <div class="my-first-work">
+        <div class="man-photo">
+          <img class="person-photo" src="img/first-work.png" alt="" />
+        </div>
+        <div class="text-box">
+          <div class="text-in-box">
+            <div class="text-box-h1">Telegram form</div>
+            <div class="text-box-h2">
+              This is my first work that was written in java script, and also
+              where I used a telegram bot as a form of feedback, I still use it
+              as it is unique and easy to use, even in this thesis)
+            </div>
+          </div>
+          <div class="text-icon">Source code</div>
+          <a target="_blank" href="https://github.com/Yalovega/telegram-form">
+            <img class="github-icon" src="img/github-mark.png" alt=""
+          /></a>
         </div>
       </div>
     </div>
-
+    <div class="text-mobile-2">
+      <div class="text-h2">How <a class="text-h2-blue">i work?</a></div>
+    </div>
     <iframe
-      class="maps"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.2579101468477!2d25.9456225!3d48.3555676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733f8733964df1f%3A0x57eafdda06b18110!2z0LLRg9C70LjRhtGPINCT0YPRhtGD0LvRjNGB0YzQutCwLCAxNSwg0KfQtdGA0L3RltCy0YbRliwg0KfQtdGA0L3RltCy0LXRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTgwMDA!5e0!3m2!1sru!2sua!4v1714252064397!5m2!1sru!2sua"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
+      class="youtube"
+      width="660"
+      height="415"
+      src="https://www.youtube.com/embed/RroDdybvu5s?si=QYDjOHNUGviqqysp"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
     ></iframe>
+
+    <div class="my-first-work">
+      <div class="man-photo">
+        <img class="restoran-photo" src="img/restoran.png" alt="" />
+      </div>
+      <div class="text-box">
+        <div class="text-in-box">
+          <div class="text-box-h1">Restaurant website</div>
+          <div class="text-box-h2">
+            it was my first work for a restaurant, it was written only in HTML /
+            CSS, I made it quite quickly, I always like to do something new,
+            especially when I have a lot of free time
+          </div>
+        </div>
+        <div class="text-icon">Source code</div>
+        <a target="_blank" href="https://github.com/Yalovega/project">
+          <img class="github-icon" src="img/github-mark.png" alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="text-mobile-3">
+      <div class="text-h2">For <a class="text-h2-blue">other project</a></div>
+    </div>
+    <div class="btn">
+      <a target="_blank" class="button-view" href="https://github.com/Yalovega">
+        View other project</a
+      >
+    </div>
 
     <div class="wrapper">
       <div class="wrapper-left">

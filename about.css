@@ -1,0 +1,47 @@
+.about-me {
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 450px;
+    margin-left: 200px;
+}
+
+.for-about-img {
+    max-width: 40%;
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+.about-info {
+    margin-bottom: 200px;
+}
+
+
+@media (max-width: 600px) {
+    .mobile-text-1 {
+        margin-left: 540px;
+        width: 400px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .for-about-img {
+        max-width: 150%;
+        text-align: center;
+        margin-right: -900px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .about-me {
+        margin-botom: -200px;
+    }
+}

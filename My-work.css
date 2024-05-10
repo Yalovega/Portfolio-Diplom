@@ -1,0 +1,175 @@
+span {
+    color: #194BFD;
+    font-family: "Space Grotesk";
+    font-size: 58.575px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%;
+}
+
+
+
+.text-h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 430px) and (max-height: 940px) {
+    .text-mobile {
+        margin-left: 440px;
+        width: 430px;
+    }
+
+}
+
+
+
+.my-first-work {
+    margin-top: 158px;
+    margin-left: 158px;
+    margin-bottom: 1000px;
+}
+
+
+
+
+.person-photo {
+    position: absolute;
+    width: 600px;
+    height: 669px;
+    flex-shrink: 0;
+    margin-left: 200px;
+}
+
+
+@media (max-width: 600px) {
+    .person-photo {
+        width: 602px;
+        height: 600px;
+        margin-left: 150px;
+
+
+    }
+}
+
+
+
+
+
+
+
+
+.text-box {
+    border-radius: 2px;
+    background: var(--Primary, #153195);
+    box-shadow: 0px 20px 24px -4px rgba(17, 24, 39, 0.10), 0px 8px 8px -4px rgba(17, 24, 39, 0.04);
+    width: 488px;
+    height: 523px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+@media (max-width: 600px) {
+    .text-box {
+        margin-right: 400px;
+
+    }
+}
+
+
+
+.text-in-box {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.text-box-h1 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.text-box-h2 {
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 388px;
+}
+
+.text-icon {
+    margin-left: 40px;
+    margin-top: 40px;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 190px;
+}
+
+.github-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+
+}
+
+@media (max-width: 600px) {
+    .text-mobile-2 {
+        margin-left: 440px;
+        width: 430px;
+    }
+}
+
+
+
+
+.youtube {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+
+
+
+.restoran-photo {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 150px;
+
+}
+
+
+.btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+@media (max-width: 600px) {
+    .btn {
+        margin-left: 460px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-mobile-3 {
+        width: 400px;
+        margin-left: 460px;
+    }
+}

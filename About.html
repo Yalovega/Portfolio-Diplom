@@ -1,11 +1,8 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Web Contact</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,9 +30,13 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="about.css" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Portfolio Web</title>
   </head>
   <body>
-    <!--    Header  -->
+    <!-- Header -->
     <div class="header">
       <div class="container-header">
         <div class="navigation">
@@ -56,7 +57,7 @@
                   href="https://github.com/Yalovega"
                   >GitHub</a
                 >
-                <a class="nav-items" href="About.html">About </a>
+                <a class="nav-items" href="#">About </a>
                 <a class="nav-items" href="contact.html">Contact</a>
               </ul>
             </div>
@@ -65,61 +66,59 @@
       </div>
     </div>
 
-    <!-- TELEGRAM FORM -->
+    <div class="designer">
+      <div class="bg">
+        <div class="bg-2">
+          <div class="container">
+            <h1 class="designer-text">
+              This is your <span class="auto-type"></span>
+            </h1>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+          <script>
+            var typed = new Typed(".auto-type", {
+              strings: ["Programmer", "Designer", "Yalovega-Viktor"],
+              typeSpeed: 150,
+              backSpeed: 150,
+              looped: true,
+            });
+          </script>
+          <div class="under-text">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </div>
 
-    <div class="container">
-      <div class="log-form">
-        <h2>Sending the form to Telegram</h2>
-        <form class="telegram-form">
-          <input
-            type="text"
-            name="name"
-            placeholder="Name"
-            autocomplete="off"
-          />
-          <input
-            type="text"
-            name="phone"
-            placeholder="Phone number"
-            autocomplete="off"
-          />
-          <input
-            type="text"
-            name="email"
-            placeholder="Email"
-            autocomplete="off"
-          />
-          <textarea name="text"></textarea>
-          <input class="file-btn" type="file" name="file" />
-          <button type="submit" class="btn">Send</button>
-        </form>
-      </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./main.js"></script>
-
-    <div class="specialyty">
-      <div class="speciality-text-box">
-        <div class="text-h1">GEOLOCATION</div>
-        <div class="text-h2">My <a class="text-h2-blue"> geolocation </a></div>
-        <div class="under-speciality">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit.
+          <div class="all-photo">
+            <img class="photo" src="img/unsplash_3JmfENcL24M.png" alt="me" />
+            <img class="detail" src="img/Group 47448.png" alt="detail" />
+            <img class="detail-2" src="img/Subtract.png" alt="detail-2" />
+          </div>
         </div>
       </div>
     </div>
 
-    <iframe
-      class="maps"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2651.2579101468477!2d25.9456225!3d48.3555676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733f8733964df1f%3A0x57eafdda06b18110!2z0LLRg9C70LjRhtGPINCT0YPRhtGD0LvRjNGB0YzQutCwLCAxNSwg0KfQtdGA0L3RltCy0YbRliwg0KfQtdGA0L3RltCy0LXRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNTgwMDA!5e0!3m2!1sru!2sua!4v1714252064397!5m2!1sru!2sua"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
+    <div class="about-info">
+      <div class="mobile-text-1">
+        <div class="text-h2">About <a class="text-h2-blue">Me</a></div>
+      </div>
+      <img class="for-about-img" src="img/for about.png" alt="" />
+      <div class="about-me">
+        I've built products for companies and businesses around the globe
+        ranging from marketing websites to complex solutions and enterprise apps
+        with focus on fast, elegant and accessible user experiences. Currently,
+        I work at Shopify as a Senior Frontend Engineer crafting thoughtful and
+        inclusive experiences that adhere to web standards for over 3 million
+        merchants across the world. Before now, I was Principal Frontend
+        Engineer at hellotax, where I worked on a suite of tools and services
+        tailored towards automated VAT compliance for multi-channel sellers in
+        Europe. Prior to hellotax, I was Senior frontend engineering consultant
+        with Pixel2HTML, building JavaScript applications and interfaces for
+        orgs and individuals. I once also led the frontend team at Conectar, an
+        e-learning startup through building multiple React applications into a
+        single robust learning platform.
+      </div>
+    </div>
 
     <div class="wrapper">
       <div class="wrapper-left">

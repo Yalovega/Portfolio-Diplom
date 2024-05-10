@@ -4,6 +4,9 @@ body {
     font-family: Satoshi;
 }
 
+
+
+
 .container-header {
     max-width: 1442px;
     padding-bottom: 200px;
@@ -27,7 +30,7 @@ body {
     width: 24px;
     height: 24px;
     padding-top: 15px;
-    margin-right: -35px;
+    margin-right: 45px;
 }
 
 .logo-text {
@@ -1127,6 +1130,17 @@ section .card .image img {
     line-height: normal;
     display: flex;
 }
+
+span {
+    color: #194BFD;
+    font-family: "Space Grotesk";
+    font-size: 58.575px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114%;
+}
+
+
 
 .contact-img {
     margin-right: 10px;
